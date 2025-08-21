@@ -37,7 +37,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp HOME  &kp DOWN  &kp UP  &kp RIGHT  &kp END  &trans  &kp LSHFT  &ext_power EP_ON  &studio_unlock  &kp C_PLAY_PAUSE  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp GLOBE  &kp LA(LS(SPACE))  &trans  &kp DOWN  &trans  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT  &trans  &trans
+&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp HOME  &kp LEFT  &kp UP  &kp RIGHT  &kp END  &trans  &kp LSHFT  &ext_power EP_ON  &studio_unlock  &kp C_PLAY_PAUSE  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp GLOBE  &kp LA(LS(SPACE))  &trans  &kp DOWN  &trans  &trans  &trans  &kp LGUI  &trans  &kp LEFT_CONTROL  &kp RET  &trans  &kp RALT  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
