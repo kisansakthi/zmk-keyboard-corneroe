@@ -59,7 +59,7 @@
 
         layer_3 {
             bindings = <
-&trans  &bl BL_CYCLE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_TOG  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bl BL_DEC  &bl BL_INC  &trans  &trans  &bl BL_TOG  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bl BL_CYCLE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_TOG  &trans  &kp A  &kp S  &kp D  &kp F  &trans  &trans  &bl BL_DEC  &bl BL_INC  &trans  &trans  &bl BL_TOG  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
