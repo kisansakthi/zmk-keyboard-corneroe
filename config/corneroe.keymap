@@ -60,6 +60,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp RGB_BRD RGB_BRI &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
