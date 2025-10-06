@@ -64,7 +64,7 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_OFF  &kp C_PREV  &kp C_NEXT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&rgb_ug RGB_COLOR_HSB(163,80,57)  &rgb_ug RGB_COLOR_HSB(360,71,46)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_TOG  &kp C_PREV  &kp C_NEXT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
