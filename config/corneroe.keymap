@@ -11,6 +11,50 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        semicolan_combo {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <32 33>;
+        };
+
+        tab_combo {
+            bindings = <&kp TAB>;
+            key-positions = <15 14>;
+        };
+
+        left_pare {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <4 5>;
+        };
+
+        right_pare {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <6 7>;
+        };
+
+        left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <16 17>;
+        };
+
+        right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <18 19>;
+        };
+
+        left_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <28 29>;
+        };
+
+        right_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <30 31>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -22,7 +66,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BACKSPACE  &kp ESC  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp LGUI  &mo 2  &mt LEFT_ALT ENTER  &kp SPACE  &mo 3  &kp LEFT_CONTROL  &kp C_PREV  &kp C_NEXT
+&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &none  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SINGLE_QUOTE  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp LGUI  &mo 2  &lt 5 ENTER  &mt SPACE RIGHT_SHIFT  &mo 3  &mt LEFT_CONTROL BACKSPACE  &kp C_PREV  &kp C_NEXT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -42,7 +86,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&mo 5  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp DELETE  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp END  &kp RET  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp LGUI  &trans  &kp ENTER  &kp SPACE  &mo 4  &kp RALT  &kp C_PLAY_PAUSE  &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp DELETE  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp END  &kp RET  &trans  &kp F2  &kp F3  &kp F4  &kp F5  &mo 5  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp LGUI  &trans  &kp ENTER  &kp SPACE  &mo 4  &bt BT_CLR  &kp C_PLAY_PAUSE  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -56,7 +100,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC  &kp LCTRL  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT  &kp RBKT  &kp PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE  &kp C_AL_LOCK  &kp BACKSLASH  &kp PLUS  &kp F1  &kp F2  &kp F3  &kp UNDERSCORE  &kp PLUS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &kp TILDE  &trans  &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans  &kp RALT  &tog 1  &trans
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT  &kp RBKT  &kp PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp GRAVE  &trans  &trans  &kp BACKSLASH  &kp PLUS  &kp F1  &kp F2  &kp F3  &kp UNDERSCORE  &kp PLUS  &kp LEFT_BRACE  &kp TILDE  &kp BACKSLASH  &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans  &kp RALT  &tog 1  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
