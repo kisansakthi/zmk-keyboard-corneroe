@@ -152,7 +152,7 @@
         approve_pr: approve_pr {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(C) &kp A &kp N &kp SPACE &kp Y &kp O &kp U &kp SPACE &kp P &kp L &kp E &kp A &kp S &kp E &kp SPACE &kp A &kp P &kp P &kp R &kp O &kp V &kp E &kp SPACE &kp T &kp H &kp I &kp S &kp SPACE &kp LS(P) &kp LS(R) &kp QMARK &kp SPACE &kp LG(V) &kp ENTER>;
+            bindings = <&kp LS(C) &kp A &kp N &kp SPACE &kp Y &kp O &kp U &kp SPACE &kp P &kp L &kp E &kp A &kp S &kp E &kp SPACE &kp A &kp P &kp P &kp R &kp O &kp V &kp E &kp SPACE &kp T &kp H &kp I &kp S &kp SPACE &kp LS(P) &kp LS(R) &kp QMARK &kp SPACE &kt LG(V) &kp SPACE &kp ENTER>;
             label = "APPROVE_PR";
         };
     };
